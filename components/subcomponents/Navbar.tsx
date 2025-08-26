@@ -51,7 +51,7 @@ export default function Navbar(): JSX.Element {
 
     return (
         <>
-            <div className="hidden lg:flex lg:justify-between lg:items-center lg:w-full">
+            <div className="">
                 <nav>
                     <ul className="flex gap-6 items-center text-md uppercase tracking-widest">
                         <li><button onClick={() => handleNavigation('/', 'home')} className="hover:opacity-70 transition-opacity uppercase cursor-pointer" type="button">Início</button></li>

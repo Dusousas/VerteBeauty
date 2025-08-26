@@ -5,16 +5,19 @@ import Login from './subcomponents/Login';
 export default function Header() {
     return (
         <>
-            <header className='bg-white py-4'>
-                <div className='maxW flex flex-col justify-center items-center'>
-                    <div>
+            <header className='p-12 absolute w-full'>
+                <div className='flex items-center justify-between bg-[#09243C] rounded-xl py-4 px-4'>
+                    <div className='w-1/3'>
                         <a className='text-3xl uppercase text-black' href="/">Minhalogo</a>
                     </div>
-                    <div className='text-black w-full flex items-end justify-end'>
-                        <Login />
-                    </div>
-                    <div className=' text-black'>
+
+                    <div className='w-1/3 flex justify-center items-center'>
                         <Navbar />
+                    </div>
+
+
+                    <div className='w-1/3 flex justify-end'>
+                        <Login />
                     </div>
                 </div>
             </header>
