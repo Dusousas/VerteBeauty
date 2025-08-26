@@ -8,15 +8,15 @@ export default function Header() {
             <header className='p-12 absolute w-full'>
                 <div className='flex items-center justify-between bg-[#09243C] rounded-xl py-4 px-4'>
                     <div className='w-1/3'>
-                        <a className='text-3xl uppercase text-black' href="/">Minhalogo</a>
+                        <a className='text-3xl uppercase text-white' href="/">Minhalogo</a>
                     </div>
 
-                    <div className='w-1/3 flex justify-center items-center'>
+                    <div className='w-1/3 flex justify-center items-center text-white'>
                         <Navbar />
                     </div>
 
 
-                    <div className='w-1/3 flex justify-end'>
+                    <div className='w-1/3 flex justify-end text-white'>
                         <Login />
                     </div>
                 </div>
