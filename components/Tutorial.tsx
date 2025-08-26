@@ -42,7 +42,7 @@ export default function Tutorial() {
                     </article>
 
                     <div className='flex mt-8 justify-center'>
-                        <a className='bg-[#09243C] text-white px-6 py-2 rounded-xl uppercase tracking-wider font-Quicksand font-semibold' href="">Começar agora</a>
+                        <a className='bg-[#09243C] text-white px-6 py-2 rounded-xl uppercase tracking-wider font-Quicksand font-semibold' href="/questionario">Começar agora</a>
                     </div>
                 </div>
             </section>

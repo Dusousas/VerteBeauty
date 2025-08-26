@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function Footer() {
+export default function page() {
     return (
         <>
-            <section className='bg-[#09243C] py-6 text-white text-center'>
+            <section className=''>
                 <div className='maxW'>
-                    Footer
+                    page
                 </div>
             </section>
         </>
