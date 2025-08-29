@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import { useState } from 'react';
 import { IoAdd } from 'react-icons/io5';
 import { MdBolt } from 'react-icons/md';
@@ -41,14 +42,14 @@ export default function Treatments() {
                     <h2 className='font-Quicksand font-semibold text-3xl uppercase text-center mt-2 text-[#09243C]'>Lorem ipsum dolor sit amet</h2>
                 </div>
 
-                <div className='flex justify-center gap-20 items-center'>
-                    <div className='w-1/2 flex justify-end'>
+                <div className='flex flex-col justify-center gap-20 items-center lg:flex-row'>
+                    <div className='flex justify-end lg:w-1/2'>
                         <img className='rounded-3xl' src="/h1-13.webp" alt="Doctor consultation" />
                     </div>
 
-                    <div className='space-y-6 w-1/2'>
-                        <p className='text-sm uppercase font-bold text-[#09243C]'>Lorem ipsum dolor sit amet consectetur.</p>
-                        <h2 className='font-Quicksand font-semibold text-3xl uppercase mt-2 text-[#09243C]'>Lorem ipsum dolor sit.</h2>
+                    <div className='space-y-6 lg:w-1/2'>
+                        <p className='text-sm uppercase font-bold text-[#09243C] text-center lg:text-left'>Lorem ipsum dolor sit amet consectetur.</p>
+                        <h2 className='font-Quicksand font-semibold text-3xl uppercase mt-2 text-[#09243C] text-center lg:text-left'>Lorem ipsum dolor sit.</h2>
                         {treatmentSteps.map((step) => (
                             <div key={step.id} className='bg-white rounded-2xl borde- border-[#09243C] overflow-hidden w-full outline'>
                                 <button onClick={() => toggleAccordion(step.id)} className='w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200'>
@@ -77,8 +78,8 @@ export default function Treatments() {
                             </div>
                         ))}
 
-                        <div className='flex mt-8'>
-                            <a className='bg-[#09243C] text-white px-6 py-2 rounded-xl uppercase tracking-wider font-Quicksand font-semibold' href="/questionario">Começar agora</a>
+                        <div className='flex justify-center mt-8 lg:justify-start'>
+                            <Link className='bg-[#09243C] text-white px-6 py-2 rounded-xl uppercase tracking-wider font-Quicksand font-semibold' href="/questionario">Começar agora</Link>
                         </div>
                     </div>
                 </div>

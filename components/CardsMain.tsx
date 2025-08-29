@@ -8,7 +8,7 @@ export default function CardsMain() {
                 <div className='bgCardsmain py-4 rounded-xl'>
                     <div className='maxW flex flex-col h-full items-center justify-center lg:flex-row'>
 
-                        <div className='w-1/4 py-10 px-4 flex flex-col justify-center items-center'>
+                        <div className='py-10 px-4 flex flex-col justify-center items-center lg:w-1/4 '>
                             <div className='h-20 w-20 flex items-center justify-center rounded-3xl bg-[#3E5365]'>
                                 <MdLocalPharmacy className='text-3xl text-white' />
                             </div>
@@ -17,7 +17,7 @@ export default function CardsMain() {
                             <p className='mt-4 text-center text-gray-400'>Tratamentos elaborados e vendidos por farmácias de manipulação autorizadas pela Anvisa.</p>
                         </div>
 
-                        <div className='w-1/4 py-10 px-4 flex flex-col justify-center items-center'>
+                        <div className='py-10 px-4 flex flex-col justify-center items-center lg:w-1/4 '>
                             <div className='h-20 w-20 flex items-center justify-center rounded-3xl bg-[#3E5365]'>
                                 <MdLocalPharmacy className='text-3xl text-white' />
                             </div>
@@ -26,7 +26,7 @@ export default function CardsMain() {
                             <p className='mt-4 text-center text-gray-400'>Tratamentos elaborados e vendidos por farmácias de manipulação autorizadas pela Anvisa.</p>
                         </div>
 
-                        <div className='w-1/4 py-10 px-4 flex flex-col justify-center items-center'>
+                        <div className='py-10 px-4 flex flex-col justify-center items-center lg:w-1/4 '>
                             <div className='h-20 w-20 flex items-center justify-center rounded-3xl bg-[#3E5365]'>
                                 <MdLocalPharmacy className='text-3xl text-white' />
                             </div>
@@ -35,7 +35,7 @@ export default function CardsMain() {
                             <p className='mt-4 text-center text-gray-400'>Tratamentos elaborados e vendidos por farmácias de manipulação autorizadas pela Anvisa.</p>
                         </div>
 
-                        <div className='w-1/4 py-10 px-4 flex flex-col justify-center items-center'>
+                        <div className='py-10 px-4 flex flex-col justify-center items-center lg:w-1/4 '>
                             <div className='h-20 w-20 flex items-center justify-center rounded-3xl bg-[#3E5365]'>
                                 <MdLocalPharmacy className='text-3xl text-white' />
                             </div>

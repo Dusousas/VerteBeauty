@@ -1,11 +1,12 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Tutorial() {
     return (
         <>
-            <section className='py-20'>
+            <section className='py-10 lg:py-20'>
                 <div className='maxW'>
-                    <h2 className='font-Quicksand font-semibold text-3xl uppercase text-[#09243C] mb-12'>
+                    <h2 className='font-Quicksand font-semibold text-3xl uppercase text-[#09243C] mb-12 text-center lg:text-left'>
                         Sobrancelhas perfeitas sem complicação
                     </h2>
 
@@ -42,7 +43,7 @@ export default function Tutorial() {
                     </article>
 
                     <div className='flex mt-8 justify-center'>
-                        <a className='bg-[#09243C] text-white px-6 py-2 rounded-xl uppercase tracking-wider font-Quicksand font-semibold' href="/questionario">Começar agora</a>
+                        <Link className='bg-[#09243C] text-white px-6 py-2 rounded-xl uppercase tracking-wider font-Quicksand font-semibold' href="/questionario">Começar agora</Link>
                     </div>
                 </div>
             </section>

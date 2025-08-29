@@ -169,9 +169,12 @@ const Testimonials: React.FC = () => {
 
     return (
         <section className="p-4 sm:p-6">
-            <div className="bg-[#F5F1EE] rounded-xl py-8 sm:py-10">
+            <div className="bg-[#F5F1EE] rounded-xl py-20
+            
+            
+            ">
                 <div className="maxW px-4 sm:px-0">
-                    <h2 className="font-bold text-2xl sm:text-3xl uppercase mt-2 text-[#09243C] text-center mb-8 sm:mb-10">
+                    <h2 className="font-bold text-2xl sm:text-3xl uppercase mt-2 text-[#09243C] text-center  mb-8 sm:mb-10 lg:text-left">
                         O que nossos clientes dizem
                     </h2>
 
